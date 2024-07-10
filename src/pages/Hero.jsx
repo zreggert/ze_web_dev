@@ -32,7 +32,7 @@ const Hero = () => {
 						3000, 
 						'an Adventurer',
 						3000,
-						'a Life-long Student',
+						'a Lifelong Student',
 						3000,
 						'a Thrill Seeker',
 						3000
