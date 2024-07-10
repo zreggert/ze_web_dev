@@ -18,7 +18,7 @@ const data = {
             "id": "2",
             Icon: () => (<FaDatabase size={100}/>),
             "title": "Back-End",
-            "description": "Built relational and non-relational databases using SQL adn NoSQL"
+            "description": "Built relational and non-relational databases using SQL and NoSQL"
         },
         {
             "id": "3",

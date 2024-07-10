@@ -70,13 +70,12 @@ const Portfolio = () => {
 					className="grid grid-cols-1 gap-4 xl:gap-10 rounded-2xl shadow-xl h-[100%]"
 					style={{
 						transform: isInView ? "translateX(0px)" : "translateX(50px)",
-						overflow: 'hidden',
 						opacity: isInView ? 1 : 0,
 						transition: "all 0.9s cubic-bezier(0.10, 0.5, 0.75, 1) 0.5s"
 					}}
 				>
 					<div className="flex justify-start items-start p-6 max-h-300">
-						<img src={item.src} alt='project screenshot' className="rounded-lg"/>
+						<img src={item.src} alt='project screenshot' className="rounded-lg relative"/>
 					</div>
 					<div className="flex flex-col px-5 pb-5 items-start self-stretch gap-5">
 					<div>
