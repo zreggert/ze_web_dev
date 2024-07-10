@@ -33,11 +33,11 @@ const Contact = () => {
                     </label>
                     <label htmlFor="email" className="flex flex-col items-start gap-5 w-[100%]">
                         <span className="text-md">Email</span>
-                        <input type="text" className="flex items-center self-stretch p-4 rounded-md border-[1.33px] bg-white" name="email" id="email" required></input>
+                        <input type="email" className="flex items-center self-stretch p-4 rounded-md border-[1.33px] bg-white" name="email" id="email" required></input>
                     </label>
                     <label htmlFor="phone-number" className="flex flex-col items-start gap-5 w-[100%]">
                         <span className="text-md">Phone Number</span>
-                        <input type="number" className="flex items-center self-stretch p-4 rounded-md border-[1.33px] bg-white" name="phone-number" id="phone-number" required></input>
+                        <input type="number" className="flex items-center self-stretch p-4 rounded-md border-[1.33px] bg-white" name="phone-number" id="phone-number"></input>
                     </label>
                 </div>
                 <label htmlFor="message" className="flex flex-col items-start gap-5 w-[100%]">
