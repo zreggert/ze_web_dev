@@ -15,7 +15,7 @@ const Contact = () => {
     return (
         <motion.div ref={targetRef} style={{ opacity }} id="contact" className="flex flex-col justify-center items-center text-center pb-20">
             <div>
-                <h3 className="text sm:text-4xl font-bold text-gray-800">Contact Me</h3>
+                <h3 className="text-2xl sm:text-4xl font-bold text-gray-800">Contact Me</h3>
                 <p className="">Get in Touch</p>
             </div>
             <form
