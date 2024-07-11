@@ -19,23 +19,23 @@ const SideNav = () => {
         {
             nav ? (
                 <div className='fix w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
-                    <a href="#hero" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-seafoam bg-opacity-50 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale=110 ease-in duration-200'>
+                    <a href="#hero" onClick={handleNav} className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-seafoam bg-opacity-50 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale=110 ease-in duration-200'>
                         <AiOutlineHome size={20} />
                         <span className='pl-4'>Home</span>
                     </a>
-                    <a href="#aboutme" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-seafoam bg-opacity-50 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale=110 ease-in duration-200'>
+                    <a href="#aboutme" onClick={handleNav} className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-seafoam bg-opacity-50 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale=110 ease-in duration-200'>
                         <BsPerson  size={20} />
-                        <span className='pl-4'>Work</span>
+                        <span className='pl-4'>About Me</span>
                     </a>
-                    <a href="#skills" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-seafoam bg-opacity-50 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale=110 ease-in duration-200'>
+                    <a href="#skills" onClick={handleNav} className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-seafoam bg-opacity-50 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale=110 ease-in duration-200'>
                         <AiOutlineProject size={20} />
-                        <span className='pl-4'>Projects</span>
+                        <span className='pl-4'>Skills</span>
                     </a>
-                    <a href="#portfolio" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-seafoam bg-opacity-50 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale=110 ease-in duration-200'>
+                    <a href="#portfolio" onClick={handleNav} className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-seafoam bg-opacity-50 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale=110 ease-in duration-200'>
                         <GrProjects size={20} />
-                        <span className='pl-4'>Resume</span>
+                        <span className='pl-4'>Portfolio</span>
                     </a>
-                    <a href="#contact" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-seafoam bg-opacity-50 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale=110 ease-in duration-200'>
+                    <a href="#contact" onClick={handleNav} className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-seafoam bg-opacity-50 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale=110 ease-in duration-200'>
                         <AiOutlineMail size={20} />
                         <span className='pl-4'>Contact</span>
                     </a>
